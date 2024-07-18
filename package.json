@@ -1,0 +1,24 @@
+{
+  "name": "splswap",
+  "version": "1.0.0",
+  "description": "Token swap for solana",
+  "type": "module",
+  "main": "splSwap.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha ./tests/unitTest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.8",
+    "@solana/spl-token-swap": "^0.4.3",
+    "@solana/web3.js": "^1.95.1",
+    "chai": "^5.1.1",
+    "mocha": "^10.6.0",
+    "sinon": "^18.0.0"
+  }
+}
